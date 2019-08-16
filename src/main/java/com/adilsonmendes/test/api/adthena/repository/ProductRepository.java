@@ -1,9 +1,10 @@
 package com.adilsonmendes.test.api.adthena.repository;
 
 import java.util.Hashtable;
-
+import org.springframework.stereotype.Component;
 import com.adilsonmendes.test.api.adthena.model.Product;
 
+@Component
 public class ProductRepository {
 	
 	  private Hashtable<String, Product> productList;
