@@ -2,11 +2,12 @@ package com.adilsonmendes.test.api.adthena.repository;
 
 import java.util.Hashtable;
 import org.springframework.stereotype.Component;
+import org.springframework.util.StringUtils;
 import com.adilsonmendes.test.api.adthena.model.Product;
 
 @Component
 public class ProductRepository {
-	
+  
 	  private Hashtable<String, Product> productList;
 	
 	  public ProductRepository() {
@@ -17,23 +18,33 @@ public class ProductRepository {
 		  productList.put(product.getName(), product);
 	  }
 	  
-	  protected void removeProduct(String name) {
+	  public void removeProduct(String name) {
 		  productList.remove(name);
 	  }
 	  
-	  protected void removeProduct(Product product) {
+	  public void removeProduct(Product product) {
 		  productList.remove(product.getName(), product);
 	  }
 	  
-	  protected void getProducts(String name) {
+	  public void getProducts(String name) {
 		  productList.get(name);
 	  }
 
-	  protected void isProductExists(String name) {
-		  productList.containsKey(name);
+	  public boolean isProductExists(String name) {
+	      String nameCap = CapitalizeFirstLetter(name);
+		  return productList.containsKey(nameCap);
 	  }
 	  
-	  protected void isProductExists(Product product) {
-		  productList.containsValue(product);
+	  protected boolean isProductExists(Product product) {
+		  return productList.containsValue(product);
+	  }
+	  
+	  public void print() {
+	    System.out.println("\n************* Products Available ****************\n");
+        productList.forEach((k,p)->System.out.println(String.format("%s price : %.2f ", k,  p.getPrice())));
+    }
+	  
+	  private String CapitalizeFirstLetter(String str) {
+	    return StringUtils.capitalize(str);
 	  }
 }

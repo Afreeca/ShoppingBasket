@@ -1,12 +1,14 @@
 package com.adilsonmendes.test.api.adthena.model;
 
 public class Condition {
-  String productName;
   int amount;
+  int discountOf;
+  String onProduct;
   
-  public Condition(String productName, int amount) 
+  public Condition(int amount, int discountOf, String onProduct) 
   {
-    this.productName = productName;
-    this.amount = amount;
+    this.amount = amount; 
+    this.discountOf = discountOf;
+    this.onProduct = onProduct;
   }
 }

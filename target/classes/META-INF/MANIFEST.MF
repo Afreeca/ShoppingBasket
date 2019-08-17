@@ -5,6 +5,6 @@ Implementation-Title: ShoppingBasquet
 Implementation-Version: 0.0.1-SNAPSHOT
 Implementation-Vendor-Id: com.adilsonmendes.test.api.adthena
 Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
- ot-starter-parent/ShoppingBasquet
+ ot-starter-parent/ShoppingBasket
 Created-By: Maven Integration for Eclipse
 

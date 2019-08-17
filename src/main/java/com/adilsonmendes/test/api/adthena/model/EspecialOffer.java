@@ -1,18 +1,18 @@
 package com.adilsonmendes.test.api.adthena.model;
 
-import java.sql.Date;
+import java.time.LocalDate;
 
-public class Promotion {
+public class EspecialOffer {
     String description;
 	String productName;
 	int discount;
-	Date start;
-	Date end;
+	LocalDate start;
+	LocalDate end;
 	Condition condition;
 	
-  public Promotion() {}
+  public EspecialOffer() {}
 
-  public Promotion(String description, String productName, int discount, Date start, Date end, Condition condition) {
+  public EspecialOffer(String description, String productName, int discount, LocalDate start, LocalDate end, Condition condition) {
     this.description = description;
     this.productName = productName;
     this.discount = discount;
@@ -45,20 +45,20 @@ public class Promotion {
     this.discount = discount;
   }
 
-  public Date getStart() {
+  public LocalDate getStart() {
     return start;
   }
 
-  public void setStart(Date start) {
+  public void setStart(LocalDate start) {
     this.start = start;
   }
 
-  public Date getEnd() {
+  public LocalDate getEnd() {
     return end;
   }
 
-  public void setEnd(Date end) {
-    this.end = end;
+  public void setEnd(LocalDate localDate) {
+    this.end = localDate;
   }
 
   public Condition getCondition() {
