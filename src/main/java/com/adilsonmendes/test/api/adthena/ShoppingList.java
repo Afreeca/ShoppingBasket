@@ -5,31 +5,62 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import com.adilsonmendes.test.api.adthena.model.Product;
 import com.adilsonmendes.test.api.adthena.repository.ProductRepository;
+import com.adilsonmendes.test.api.adthena.utils.Helper;
 
 @Component
 public class ShoppingList {
   
   @Autowired
   private ProductRepository productRepo;
+  
+  @Autowired
+  private Helper helper;
    
   public void Process(ArrayList<Product> list) {
-    double subTotalPrice = calculateSubTotal(list);
-    double totalPrice = calculateTotalPrice(list);
     
-    System.out.println(String.format("Subtotal: %.2f", subTotalPrice));
+    double subTotalPrice = calculateSubTotal(list);
+    double totalPrice = 0;
+    
+    System.out.println(String.format("\nSubtotal: £%.2f", subTotalPrice));
     
     for (Product product : list) {
-      if(product.getSpecialOffer() != null)
+      double newPrice = product.getPrice();
+      if(product.getSpecialOffer() != null) {
         System.out.println(generateSpecialOfferText(product));
+        newPrice = applySpecialOffer(list, product);
+      }
+      totalPrice += newPrice;
     }
+    
+    System.out.println(String.format("Total: £%.2f", totalPrice));
   }
   
   private double calculateSubTotal(ArrayList<Product> list) {
     double subTotal = 0;
-    for (Product product : list) {
+    for (Product product : list)
        subTotal +=product.getPrice();
-    }
     return subTotal;
+  }
+  
+  private double applySpecialOffer(ArrayList<Product> list, Product product) {
+    int discount = product.getSpecialOffer().getDiscount();
+    if (discount != 0)
+        return helper.calculatePercentage(product.getPrice(), discount);
+    
+    int quantity =  product.getSpecialOffer().getCondition().getAmount();
+    long occurance = calculateProductOccurances(list, product.getSpecialOffer().getCondition().getOnProduct());
+    
+    discount = product.getSpecialOffer().getCondition().getDiscountOf();
+    if(occurance == quantity)
+        return helper.calculatePercentage(product.getPrice(), discount);
+    return product.getPrice();
+  }
+  
+  private long calculateProductOccurances(ArrayList<Product> list, String product) {
+    return list
+        .stream()
+        .filter(p -> p.getName().equals(helper.capitalizeFirstLetter(product)))
+        .count();
   }
   
   private String generateSpecialOfferText(Product product) {
@@ -42,14 +73,7 @@ public class ShoppingList {
     String plural = amount > 1 ? "s" : "";
     String packaging = product.getDescription().concat(plural);
     String packagingOf = productRepo.getProduct(productOf).getDescription();
-    return String.format("Buy %d %s of %s and get a %s of %s for %s.", amount, packaging, product.getName(), packagingOf, productOf, discount);
-  }
-  
-  private double calculateTotalPrice(ArrayList<Product> list) {
-    double subTotal = 0;
-    for (Product product : list)
-       subTotal +=product.getPrice();
-    return subTotal;
+    return String.format("Buy %d %s of %s and get a %s of %s for %s.", amount, packagingOf, productOf, packaging, product.getName(), discount);
   }
   
   private String getDiscountText(int discountOf){

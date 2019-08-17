@@ -83,15 +83,15 @@ public class ShoppingBasquetApplication implements CommandLineRunner {
     applePromo.setEnd(LocalDate.now().plusWeeks(2));
     applePromo.setDiscount(10);
     
-    SpecialOffer soupPromo = new SpecialOffer(); 
-    soupPromo.setDescription("soupPromo");
-    soupPromo.setStart(LocalDate.now());
-    soupPromo.setEnd(LocalDate.now().plusWeeks(2));
-    soupPromo.setCondition(new Condition(2, 50, "Bread"));
+    SpecialOffer breadPromo = new SpecialOffer(); 
+    breadPromo.setDescription("breadPromo");
+    breadPromo.setStart(LocalDate.now());
+    breadPromo.setEnd(LocalDate.now().plusWeeks(2));
+    breadPromo.setCondition(new Condition(2, 50, "Soup"));
     
     // adding promotions to their correspondent products
     apple.setSpecialOffer(applePromo);
-    soup.setSpecialOffer(soupPromo);
+    bread.setSpecialOffer(breadPromo);
   }
 
   private static void cleanAndTerminate() {

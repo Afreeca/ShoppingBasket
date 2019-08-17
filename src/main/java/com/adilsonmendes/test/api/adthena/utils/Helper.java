@@ -14,4 +14,8 @@ public class Helper {
   public String capitalizeFirstLetter(String str) {
     return StringUtils.capitalize(str);
   }
+  
+  public double calculatePercentage(double number, int percentage) {
+    return (number * (100-percentage)) / 100;
+  }
 }

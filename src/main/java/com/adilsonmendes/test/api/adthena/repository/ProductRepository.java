@@ -44,11 +44,6 @@ public class ProductRepository {
   protected boolean isProductExists(Product product) {
     return productList.containsValue(product);
   }
-
-  public void print() {
-    System.out.println("\n************* Products Available ****************\n");
-    productList.forEach((k,p)->System.out.println(String.format("%s price : %.2f ", k,  p.getPrice())));
-  }
   
   public ArrayList<Product> getProductList(String product[]) {
     ArrayList<Product> shoppingList = new ArrayList<>();
@@ -57,5 +52,9 @@ public class ProductRepository {
     return shoppingList;
   }
 
-  
+  public void print() {
+    System.out.println("\n************* Products Available ****************\n");
+    productList.forEach((k,p)->System.out.println(String.format("%s price : %.2f ", k,  p.getPrice())));
+  }
+   
 }
