@@ -19,7 +19,7 @@ public class ShoppingList {
     System.out.println(String.format("Subtotal: %.2f", subTotalPrice));
     
     for (Product product : list) {
-      if(product.getEspecialOffer() != null)
+      if(product.getSpecialOffer() != null)
         System.out.println(generateSpecialOfferText(product));
     }
   }
@@ -33,12 +33,12 @@ public class ShoppingList {
   }
   
   private String generateSpecialOfferText(Product product) {
-    if (product.getEspecialOffer().getDiscount() != 0)
-        return String.format("%s have a %d%% discount off their normal price this week.", product.getName(), product.getEspecialOffer().getDiscount());
+    if (product.getSpecialOffer().getDiscount() != 0)
+        return String.format("%s have a %d%% discount off their normal price this week.", product.getName(), product.getSpecialOffer().getDiscount());
     
-    String productOf =  product.getEspecialOffer().getCondition().getOnProduct();
-    int amount = product.getEspecialOffer().getCondition().getAmount();
-    String discount = getDiscountText(product.getEspecialOffer().getCondition().getDiscountOf());
+    String productOf =  product.getSpecialOffer().getCondition().getOnProduct();
+    int amount = product.getSpecialOffer().getCondition().getAmount();
+    String discount = getDiscountText(product.getSpecialOffer().getCondition().getDiscountOf());
     String plural = amount > 1 ? "s" : "";
     String packaging = product.getDescription().concat(plural);
     String packagingOf = productRepo.getProduct(productOf).getDescription();

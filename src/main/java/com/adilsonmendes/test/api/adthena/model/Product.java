@@ -47,19 +47,19 @@ public class Product {
 		this.description = description;
 	}
 	
-	public SpecialOffer getEspecialOffer() {
+	public SpecialOffer getSpecialOffer() {
 	    return especialOffer;
 	}
 	
-	public void setEspecialOffer(SpecialOffer specialOffer) {
+	public void setSpecialOffer(SpecialOffer specialOffer) {
       this.especialOffer = specialOffer;
     }
 	  
-	protected boolean isEspecialOfferExists() {
+	protected boolean isSpecialOfferExists() {
 	    return this.especialOffer == null;
 	}	
 	
-	protected boolean isEspecialOfferConditionExists(String promoName) {
+	protected boolean isSpecialOfferConditionExists(String promoName) {
       return this.especialOffer.condition == null;
     } 	
 }

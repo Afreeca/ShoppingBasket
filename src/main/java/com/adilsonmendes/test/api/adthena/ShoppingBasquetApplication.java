@@ -90,8 +90,8 @@ public class ShoppingBasquetApplication implements CommandLineRunner {
     soupPromo.setCondition(new Condition(2, 50, "Bread"));
     
     // adding promotions to their correspondent products
-    apple.setEspecialOffer(applePromo);
-    soup.setEspecialOffer(soupPromo);
+    apple.setSpecialOffer(applePromo);
+    soup.setSpecialOffer(soupPromo);
   }
 
   private static void cleanAndTerminate() {
