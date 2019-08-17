@@ -1,0 +1,7 @@
+com/adilsonmendes/test/api/adthena/ShoppingList.class
+com/adilsonmendes/test/api/adthena/model/Product.class
+com/adilsonmendes/test/api/adthena/ShoppingBasquetApplication.class
+com/adilsonmendes/test/api/adthena/model/SpecialOffer.class
+com/adilsonmendes/test/api/adthena/utils/Helper.class
+com/adilsonmendes/test/api/adthena/model/Condition.class
+com/adilsonmendes/test/api/adthena/repository/ProductRepository.class

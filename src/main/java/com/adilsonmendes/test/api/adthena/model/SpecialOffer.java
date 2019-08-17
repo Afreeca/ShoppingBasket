@@ -68,5 +68,4 @@ public class SpecialOffer {
   public void setCondition(Condition condition) {
     this.condition = condition;
   }
-  
 }
