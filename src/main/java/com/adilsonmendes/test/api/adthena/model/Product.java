@@ -1,21 +1,18 @@
 package com.adilsonmendes.test.api.adthena.model;
 
-import java.util.Hashtable;
-
 public class Product {
 	
 	long id;
 	String name;
 	double price;
 	String description;
-    private Hashtable<String, EspecialOffer> promotionList;
+    SpecialOffer especialOffer;
 	
 	public Product(long id, String name, double price, String description) {
 		this.id = id;
 		this.name = name;
 		this.price = price;
 		this.description = description;
-		promotionList = new Hashtable<>();
 	}
 
 	public long getId() {
@@ -50,15 +47,19 @@ public class Product {
 		this.description = description;
 	}
 	
-	public void addPromotion(EspecialOffer promotion) {
-	    this.promotionList.put(promotion.getDescription(), promotion);
-	}
-	  
-	protected void removePromotion(String description) {
-	    this.promotionList.remove(description);
+	public SpecialOffer getEspecialOffer() {
+	    return especialOffer;
 	}
 	
-	protected void isPromotionExists() {
-	    this.promotionList.isEmpty();
-	}	  
+	public void setEspecialOffer(SpecialOffer specialOffer) {
+      this.especialOffer = specialOffer;
+    }
+	  
+	protected boolean isEspecialOfferExists() {
+	    return this.especialOffer == null;
+	}	
+	
+	protected boolean isEspecialOfferConditionExists(String promoName) {
+      return this.especialOffer.condition == null;
+    } 	
 }

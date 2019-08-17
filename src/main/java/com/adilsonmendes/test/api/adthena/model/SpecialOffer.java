@@ -2,7 +2,7 @@ package com.adilsonmendes.test.api.adthena.model;
 
 import java.time.LocalDate;
 
-public class EspecialOffer {
+public class SpecialOffer {
     String description;
 	String productName;
 	int discount;
@@ -10,9 +10,9 @@ public class EspecialOffer {
 	LocalDate end;
 	Condition condition;
 	
-  public EspecialOffer() {}
+  public SpecialOffer() {}
 
-  public EspecialOffer(String description, String productName, int discount, LocalDate start, LocalDate end, Condition condition) {
+  public SpecialOffer(String description, String productName, int discount, LocalDate start, LocalDate end, Condition condition) {
     this.description = description;
     this.productName = productName;
     this.discount = discount;
