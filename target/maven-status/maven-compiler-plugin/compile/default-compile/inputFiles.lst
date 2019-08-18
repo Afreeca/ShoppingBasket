@@ -1,7 +1,7 @@
-/Users/amne/Downloads/ShoppingBasket/src/main/java/com/adilsonmendes/test/api/adthena/model/Condition.java
-/Users/amne/Downloads/ShoppingBasket/src/main/java/com/adilsonmendes/test/api/adthena/ShoppingBasquetApplication.java
-/Users/amne/Downloads/ShoppingBasket/src/main/java/com/adilsonmendes/test/api/adthena/utils/Helper.java
-/Users/amne/Downloads/ShoppingBasket/src/main/java/com/adilsonmendes/test/api/adthena/model/Product.java
-/Users/amne/Downloads/ShoppingBasket/src/main/java/com/adilsonmendes/test/api/adthena/repository/ProductRepository.java
-/Users/amne/Downloads/ShoppingBasket/src/main/java/com/adilsonmendes/test/api/adthena/model/SpecialOffer.java
-/Users/amne/Downloads/ShoppingBasket/src/main/java/com/adilsonmendes/test/api/adthena/ShoppingList.java
+/home/afreeca/Projects/ShoppingBasquet/src/main/java/com/adilsonmendes/test/api/adthena/model/SpecialOffer.java
+/home/afreeca/Projects/ShoppingBasquet/src/main/java/com/adilsonmendes/test/api/adthena/utils/Helper.java
+/home/afreeca/Projects/ShoppingBasquet/src/main/java/com/adilsonmendes/test/api/adthena/ShoppingList.java
+/home/afreeca/Projects/ShoppingBasquet/src/main/java/com/adilsonmendes/test/api/adthena/model/Condition.java
+/home/afreeca/Projects/ShoppingBasquet/src/main/java/com/adilsonmendes/test/api/adthena/model/Product.java
+/home/afreeca/Projects/ShoppingBasquet/src/main/java/com/adilsonmendes/test/api/adthena/repository/ProductRepository.java
+/home/afreeca/Projects/ShoppingBasquet/src/main/java/com/adilsonmendes/test/api/adthena/ShoppingBasquetApplication.java

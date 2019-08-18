@@ -1,9 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1cf19269-8107-40d9-bf34-78dd4f672cd6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/adilsonmendes/test/api/adthena/repository/ProductRepositoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/adilsonmendes/test/adthena/ShoppingListTest.java" beforeDir="false" />
+    <list default="true" id="a6520573-a3cc-40de-ba00-a5c45d4e4565" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/adilsonmendes/test/api/adthena/ShoppingBasquetApplicationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/adilsonmendes/test/api/adthena/utils/HelperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/adilsonmendes/test/api/adthena/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/adilsonmendes/test/api/adthena/repository/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/adilsonmendes/test/api/adthena/utils/Helper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/adilsonmendes/test/api/adthena/utils/Helper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/adilsonmendes/test/adthena/repository/ProductRepositoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/adilsonmendes/test/api/adthena/repository/ProductRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/adilsonmendes/test/api/adthena/repository/ProductRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/com.adilsonmendes.test.api.adthena/ShoppingBasket/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/maven/com.adilsonmendes.test.api.adthena/ShoppingBasket/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/com.adilsonmendes.test.api.adthena/ShoppingBasket/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/maven/com.adilsonmendes.test.api.adthena/ShoppingBasket/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/adilsonmendes/test/api/adthena/ShoppingBasquetApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/adilsonmendes/test/api/adthena/ShoppingBasquetApplication.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/adilsonmendes/test/api/adthena/ShoppingList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/adilsonmendes/test/api/adthena/ShoppingList.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/adilsonmendes/test/api/adthena/model/Condition.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/adilsonmendes/test/api/adthena/model/Condition.class" afterDir="false" />
@@ -11,157 +28,25 @@
       <change beforePath="$PROJECT_DIR$/target/classes/com/adilsonmendes/test/api/adthena/model/SpecialOffer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/adilsonmendes/test/api/adthena/model/SpecialOffer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/adilsonmendes/test/api/adthena/repository/ProductRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/adilsonmendes/test/api/adthena/repository/ProductRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/adilsonmendes/test/api/adthena/utils/Helper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/adilsonmendes/test/api/adthena/utils/Helper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/adilsonmendes/test/adthena/repository/ProductRepositoryTest.class" beforeDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/adilsonmendes/test/api/adthena/repository/ProductRepositoryTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="31" column="36" lean-forward="true" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="JUnit4 Test Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/test/java/com/adilsonmendes/test/api/adthena/repository/ProductRepositoryTest.java" />
-      </list>
-    </option>
-  </component>
-  <component name="JQLSearcherManager">
-    <searchers>
-      <JQLSearcher alias="Assigned to me" jql="assignee = currentUser()" />
-    </searchers>
-  </component>
-  <component name="JiraServerManager">
-    <selected>-1</selected>
-    <servers />
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="877" />
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="ShoppingBasket" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ShoppingBasket" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShoppingBasket" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ShoppingBasket" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShoppingBasket" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ShoppingBasket" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShoppingBasket" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ShoppingBasket" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShoppingBasket" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ShoppingBasket" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="adthena" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShoppingBasket" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ShoppingBasket" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="adthena" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShoppingBasket" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ShoppingBasket" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShoppingBasket" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ShoppingBasket" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShoppingBasket" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ShoppingBasket" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShoppingBasket" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ShoppingBasket" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectId" id="1PbqPpVB7Ac6MqKuIQ77o4VzisG" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566151177822" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="com.adilsonmendes.test.api.adthena.repository" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -175,81 +60,124 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="JUnit.HelperTest.testRemoveFirstItemArray">
+    <configuration name="HelperTest.testCapitalizeFirstLetter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ShoppingBasket" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.adilsonmendes.test.api.adthena.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.adilsonmendes.test.api.adthena.utils" />
+      <option name="MAIN_CLASS_NAME" value="com.adilsonmendes.test.api.adthena.utils.HelperTest" />
+      <option name="METHOD_NAME" value="testCapitalizeFirstLetter" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelperTest.testRemoveFirstItemArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ShoppingBasket" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.adilsonmendes.test.api.adthena.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.adilsonmendes.test.api.adthena.utils" />
+      <option name="MAIN_CLASS_NAME" value="com.adilsonmendes.test.api.adthena.utils.HelperTest" />
+      <option name="METHOD_NAME" value="testRemoveFirstItemArray" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductRepositoryTest.testAddProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ShoppingBasket" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.adilsonmendes.test.api.adthena.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.adilsonmendes.test.api.adthena.repository" />
+      <option name="MAIN_CLASS_NAME" value="com.adilsonmendes.test.api.adthena.repository.ProductRepositoryTest" />
+      <option name="METHOD_NAME" value="testAddProduct" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductRepositoryTest.testGetProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ShoppingBasket" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.adilsonmendes.test.api.adthena.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.adilsonmendes.test.api.adthena.repository" />
+      <option name="MAIN_CLASS_NAME" value="com.adilsonmendes.test.api.adthena.repository.ProductRepositoryTest" />
+      <option name="METHOD_NAME" value="testGetProduct" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductRepositoryTest.testPrint" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ShoppingBasket" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.adilsonmendes.test.api.adthena.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.adilsonmendes.test.api.adthena.repository" />
+      <option name="MAIN_CLASS_NAME" value="com.adilsonmendes.test.api.adthena.repository.ProductRepositoryTest" />
+      <option name="METHOD_NAME" value="testPrint" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.HelperTest.testRemoveFirstItemArray" />
+        <item itemvalue="JUnit.HelperTest.testCapitalizeFirstLetter" />
+        <item itemvalue="JUnit.ProductRepositoryTest.testPrint" />
+        <item itemvalue="JUnit.ProductRepositoryTest.testGetProduct" />
+        <item itemvalue="JUnit.ProductRepositoryTest.testAddProduct" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1cf19269-8107-40d9-bf34-78dd4f672cd6" name="Default Changelist" comment="" />
-      <created>1566149680212</created>
+      <changelist id="a6520573-a3cc-40de-ba00-a5c45d4e4565" name="Default Changelist" comment="" />
+      <created>1566153121823</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1566149680212</updated>
+      <updated>1566153121823</updated>
     </task>
     <servers />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="877" extended-state="0" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="JIRA" order="7" />
-      <window_info anchor="bottom" id="Docker" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-    </layout>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/adilsonmendes/test/api/adthena/repository/ProductRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/adilsonmendes/test/api/adthena/repository/ProductRepositoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="31" column="36" lean-forward="true" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8.0_171</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

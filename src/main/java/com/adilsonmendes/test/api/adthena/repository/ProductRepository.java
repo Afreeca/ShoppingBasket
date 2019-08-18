@@ -23,7 +23,6 @@ public class ProductRepository {
     productList.put(product.getName(), product);
   }
 
-
   public Product getProduct(String name) {
     String nameCap = helper.capitalizeFirstLetter(name);
     return productList.get(nameCap);

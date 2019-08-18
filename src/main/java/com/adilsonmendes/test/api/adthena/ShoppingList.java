@@ -87,7 +87,7 @@ public class ShoppingList {
     }
   }
 
-  protected boolean isValidItemList(String[] list) {
+  public boolean isValidItemList(String[] list) {
     for (String product : list) 
       if(!productRepo.isProductExists(product))
       {
@@ -97,7 +97,7 @@ public class ShoppingList {
     return true;
   }
   
-  protected boolean isValidateShoppingCommand(String[] list) {
+  public boolean isValidateShoppingCommand(String[] list) {
      if(!list[0].equalsIgnoreCase("PriceBasket")){
        System.out.println("\n * Validation Error -> Shopping list format unknown");
        return false;

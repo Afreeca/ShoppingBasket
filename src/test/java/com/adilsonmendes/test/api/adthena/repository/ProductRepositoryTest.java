@@ -1,42 +1,48 @@
 package com.adilsonmendes.test.api.adthena.repository;
 
-import org.junit.After;
+import static org.junit.Assert.assertTrue;
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.when;
+
 import org.junit.Before;
 import org.junit.Test;
-
-import static org.junit.Assert.*;
+import com.adilsonmendes.test.api.adthena.model.Product;
+import com.adilsonmendes.test.api.adthena.utils.Helper;
 
 public class ProductRepositoryTest {
 
+    private ProductRepository productRepo;
+
     @Before
-    public void setUp() throws Exception {
+    public void setUp() {
+        productRepo = new ProductRepository();
+        Product productA = new Product(1, "ProductA", 0.55, "tin");
+        Product productB = new Product(1, "ProductB", 1.00, "tin");
+        
+        productRepo.addProduct(productA);
+        productRepo.addProduct(productB);
+        
+        productRepo.helper = mock(Helper.class);
     }
 
-    @After
-    public void tearDown() throws Exception {
-    }
-
-    @Test
-    public void addProduct() {
-    }
-
-    @Test
-    public void getProduct() {
-    }
 
     @Test
-    public void isProductExists() {
+    public void testIsProductExists() {
+        final String name = "productA";
+        when(productRepo.helper.capitalizeFirstLetter(name)).thenReturn("ProductA");
+
+        final boolean result = productRepo.isProductExists(name);
+        assertTrue(result);
     }
 
-    @Test
-    public void isProductExists1() {
-    }
 
     @Test
-    public void getProductList() {
-    }
+    public void testPrint() {
+        // Setup
 
-    @Test
-    public void print() {
+        // Run the test
+        productRepo.print();
+
+        // Verify the results
     }
 }

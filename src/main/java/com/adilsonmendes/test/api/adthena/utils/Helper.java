@@ -7,7 +7,7 @@ import org.springframework.util.StringUtils;
 @Component
 public class Helper {
   
-  public <T> T[] removeFirstItemArray(T[] array) {
+  public String[] removeFirstItemArray(String[] array) {
     return Arrays.copyOfRange(array, 1, array.length);
   }
   
