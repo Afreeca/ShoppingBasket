@@ -23,13 +23,6 @@ public class ProductRepository {
     productList.put(product.getName(), product);
   }
 
-  public void removeProduct(String name) {
-    productList.remove(name);
-  }
-
-  public void removeProduct(Product product) {
-    productList.remove(product.getName(), product);
-  }
 
   public Product getProduct(String name) {
     String nameCap = helper.capitalizeFirstLetter(name);

@@ -4,7 +4,6 @@ import java.time.LocalDate;
 
 public class SpecialOffer {
     String description;
-	String productName;
 	int discount;
 	LocalDate start;
 	LocalDate end;
@@ -12,9 +11,8 @@ public class SpecialOffer {
 	
   public SpecialOffer() {}
 
-  public SpecialOffer(String description, String productName, int discount, LocalDate start, LocalDate end, Condition condition) {
+  public SpecialOffer(String description, int discount, LocalDate start, LocalDate end, Condition condition) {
     this.description = description;
-    this.productName = productName;
     this.discount = discount;
     this.start = start;
     this.end = end;
@@ -27,14 +25,6 @@ public class SpecialOffer {
 
   public void setDescription(String description) {
     this.description = description;
-  }
-
-  public String getProductName() {
-    return productName;
-  }
-
-  public void setProductName(String productName) {
-    this.productName = productName;
   }
 
   public int getDiscount() {
